@@ -1,0 +1,24 @@
+# Dependencies and build output
+node_modules/
+.cache/
+.next/
+out/
+coverage/
+playwright-report/
+test-results/
+*.tsbuildinfo
+
+# Secrets
+.env
+.env.*
+!.env.example
+
+# Private source material and future local Supabase state
+reference/*
+!reference/README.md
+supabase/.temp/
+supabase/.branches/
+
+# Local editor and operating system files
+.DS_Store
+Thumbs.db

@@ -1,0 +1,1 @@
+export default function Loading() { return <main id="main-content" className="container page-content" aria-busy="true"><p className="eyebrow">MODEL BOAT RACE</p><h1>Loading competition information…</h1></main>; }
